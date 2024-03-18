@@ -17,10 +17,15 @@ Ce corpus, permet de créer un tableau/tabulation en ayant par catégorie :
 
 Ce corpus contient plus de 250 000 articles polonais obtenus du site `tvp info pl`. L'objectif de ce corpus était de collecter un maximent de données textuelles aifn de fournir des données d'entraînement pour un modèle de langage pour générer des résumés de texte.
 
-Ce modèle est basé sur un transformateur pour la synthèse de texte. Un outil synthèse est un outil basé sur l'intelligence artificielle et il peut résumer un texte considére comme *long* en un *résumé*.
+Ce modèle est basé sur **un transformateur pour la synthèse de texte**. Un outil synthèse est un outil basé sur l'intelligence artificielle et il peut résumer un texte considéré comme *long* en un *résumé*.
 La définition de `YourDictionary` :
 
 "*La synthèse se définit comme la prise de beaucoup d'informations et la création d'une version condensée qui couvre les principaux points*"
+
+Par exemple, voici des *résumeur* de texte :
+- https://www.scribbr.fr/resume-de-texte/
+- https://resoomer.com/
+- https://quillbot.com/summarize
 
 > Ce corpus est très récent car sur le compte Github, les derniers ajouts datent d'il y a 6/10 mois. Ainsi, il ne contient aucune sous-tâche ou autre information...
 
