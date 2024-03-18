@@ -15,8 +15,9 @@ Ce corpus, permet de créer un tableau/tabulation en ayant par catégorie :
 - la headline : cela peut être la première ligne du paragraphe
 - et le contexte : tout le contenu du texte
 
-Ce corpus contient plus de 250 000 articles polonais obtenus du site `tvp info pl`. L'objectif de ce corpus est de collecter les données sur un modèle basé sur un transformateur pour la synthèse de texte.
-Un outil synthèse est un outil basé sur l'intelligence artificielle et elle peut résumer un texte considére comme *long* en un *résumé*.
+Ce corpus contient plus de 250 000 articles polonais obtenus du site `tvp info pl`. L'objectif de ce corpus était de collecter un maximent de données textuelles aifn de fournir des données d'entraînement pour un modèle de langage pour générer des résumés de texte.
+
+Ce modèle est basé sur un transformateur pour la synthèse de texte. Un outil synthèse est un outil basé sur l'intelligence artificielle et il peut résumer un texte considére comme *long* en un *résumé*.
 La définition de `YourDictionary` :
 
 "*La synthèse se définit comme la prise de beaucoup d'informations et la création d'une version condensée qui couvre les principaux points*"
@@ -27,7 +28,7 @@ Pour représenter le but de corpus, voici un schéma qui le décrit :
 
 ![dataflow](https://github.com/WiktorSob/scraper-tvp/assets/94312553/60ca5c69-e353-4b83-b774-5fe526be9dc6)
 
-Notre objectif était de pouvoir travaille sur une langue autre que le français. Pour continuer sur notre lancé, on aimerait récolé un flux RSS sur le lien :
+Notre objectif était de pouvoir travailler sur une langue autre que le français. Pour continuer sur notre lancé, on aimerait récolé un flux RSS sur le lien :
 
 - https://www.polsatnews.pl/kanaly-rss/
 
