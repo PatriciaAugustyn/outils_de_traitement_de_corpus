@@ -45,6 +45,8 @@ Pour notre script, nous avons récolté le contenu des balises qui nous intéres
 - < description>...</ description>
 - < content>...</ content>
 
+> Attention : nous avons ajouté des espaces pour que les balises apparaissent sur le user_guide.md
+
 ### Lancement du script :
 
 ```
