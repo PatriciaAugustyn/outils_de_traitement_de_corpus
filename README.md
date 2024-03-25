@@ -33,9 +33,9 @@ Pour représenter le but de corpus, voici un schéma qui le décrit :
 
 ![dataflow](https://github.com/WiktorSob/scraper-tvp/assets/94312553/60ca5c69-e353-4b83-b774-5fe526be9dc6)
 
-Notre objectif était de pouvoir travailler sur une langue autre que le français. Pour continuer sur notre lancé, on aimerait récolé un flux RSS sur le lien :
+Notre objectif était de pouvoir travailler sur une langue autre que le français. Pour continuer sur notre lancé, on aimerait récolé un flux RSS sur le lien du New York Times :
 
-- https://www.polsatnews.pl/kanaly-rss/
+- https://rss.nytimes.com/services/xml/rss/nyt/World.xml
 
 Pour télécharger le datasets, voici la commande indiqué :
 
