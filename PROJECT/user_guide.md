@@ -40,10 +40,10 @@ pip install feedparser
 **Les balises** :
 
 Pour notre script, nous avons récolté le contenu des balises qui nous intéresse :
-- <title>...</ title>
-- <link>...</ link>
-- <description>...</ description>
-- <content>...</ content>
+- < title>...</ title>
+- < link>...</ link>
+- < description>...</ description>
+- < content>...</ content>
 
 ### Lancement du script :
 
