@@ -21,13 +21,11 @@ for idx, entry in enumerate(feed.entries, start=1):
     title = entry.title
     link = entry.link
     description = entry.description
-    #content = entry.content[0].value
+    # content = entry.content[0].value
 
     # On vérifie que content est bien présent dans le fichier
-    if 'content' in entry and entry.content :
+    if "content" in entry and entry.content:
         content = entry.content[0].value
-
-
 
     # Créer un fichier XML pour chaque article
     filename = f"../../data/raw/nyt_{idx}.xml"
