@@ -14,6 +14,16 @@ import csv
 
 
 def extract_data_from_xml(file_path):
+    """
+    Cette fonction permet d'extraire les données d'un fichier XML et les renvoie sous forme de liste de chaînes de caractères.
+
+    Paramètres:
+    file_path (str): Le chemin du fichier XML que l'on veut traiter.
+
+    Retourne:
+    list: Une liste contenant quatre chaînes de caractères qui représentent les données concaténées des balises <link>, <title>, <description> et
+    <content>.
+    """
     with open(file_path, "r", encoding="utf-8") as file:
         xml_content = file.read()
 
@@ -33,6 +43,15 @@ def extract_data_from_xml(file_path):
 
 
 def main():
+    """
+    La fonction main permet d'extraire nos données des fichiers XML commençant par 'nyt' dans un dossier spécifié, puis les
+    écrit dans un fichier CSV.
+
+    Fonctionnement:
+    Cette fonction cherche les fichiers XML dans notre dossier '../../data/raw/' dont le nom commence  par "nyt" et se termine par '.xml'. Ensuite, 
+    on extrait les données de chaque fichier à l'aide de la fonction extract_data_from_xml(), puis les écrit dans un fichier CSV dans le dossier
+    '../../figures/'.
+    """
     # Une liste vide qu'on va remplir de nos données récoltées dans les balises matchées
     data = []
 
